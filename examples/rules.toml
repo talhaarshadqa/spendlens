@@ -1,0 +1,4 @@
+# Custom rules are checked before the built-in ones.
+[rules]
+Coffee = ["starbucks", "costa", "coffee"]
+"Side projects" = ["github", "aws", "digitalocean"]
