@@ -11,7 +11,7 @@ start = date(2025, 11, 1)
 
 for m in range(12):
     month = date(start.year + (start.month - 1 + m) // 12, (start.month - 1 + m) % 12 + 1, 1)
-    def d(day):
+    def d(day, month=month):
         return month + timedelta(days=day - 1)
     rows += [
         (d(1), "PAYROLL ACME SOFTWARE LTD", 4200.00),

@@ -10,10 +10,10 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
-import pandas as pd  # noqa: E402
+import matplotlib.pyplot as plt
+import pandas as pd
 
-from . import analysis  # noqa: E402
+from . import analysis
 
 PALETTE = ["#4C6EF5", "#12B886", "#FAB005", "#FA5252", "#7950F2", "#15AABF", "#FD7E14", "#82C91E", "#E64980", "#868E96"]
 
